@@ -1,0 +1,171 @@
+body {
+
+	padding-left: 5%;
+	padding-top: 2%;
+	padding-right: 5%;
+}
+
+#title {
+
+	font-size: 4em;
+}
+
+h1, h2 {
+
+	font-family: 'Pacifico', cursive;
+}
+
+.welcome {
+
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+p {
+
+	font-family: Helvetica;
+	max-width: 85%
+}
+
+#bio {
+
+	font-family: 'Pacifico', cursive;
+	color: #683D55;
+	text-align: center;
+	font-size: 2em;
+	background-image:url("AdobeStock_86852107.jpeg");
+	background-size: 100%;
+	height: 350px;
+	width:	956px;
+	border-image: 100%;
+	text-shadow: 2px 2px 5px white;
+}
+
+#home {
+
+	font-family: Helvetica;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: white;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+  background-color: #1E8A52;
+}
+
+#about {
+
+	font-family: Helvetica;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: white;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+  background-color: gray;
+}
+
+#portfolio {
+
+	font-family: Helvetica;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: gray;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+  background-color: #ADD8E6;
+
+}
+
+#resources {
+
+	font-family: Helvetica;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: gray;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+  background-color: orange;
+}
+
+a:hover, #home:hover, #about:hover, #portfolio:hover, #resources:hover {
+    background-color: lavender;
+}
+
+a:visited {
+
+	color: #B81167;
+}
+
+img {
+
+	width: 55%;
+	margin-left: 15%;
+	border-style: solid inset;
+	border-color: gray;
+	display: inline-block;
+}
+
+ul {
+
+	font-family: Helvetica;
+	list-style-position:inside;
+}
+
+
+table {
+
+	font-family: Helvetica;
+	border-style: dashed;
+	padding: 5%;
+}
+
+th {
+
+	background-color: #ADD8E6;
+}
+
+.data {
+
+	background-color: lavender;
+}
+
+@media screen and (max-width: 675px) {
+  p, ul, table {
+
+    font-size: .7em;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  #about, #home, #portfolio, #resources {
+
+    font-size: .8em;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  #title {
+
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  #bio {
+
+    font-size: 1em;
+   height: auto;
+	 width:	auto;
+  }
+}
+
+
+footer {
+
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
